@@ -1,0 +1,5 @@
+Just for learing nodejs's Streams.
+
+ReadStream
+WriteStream
+Duplex

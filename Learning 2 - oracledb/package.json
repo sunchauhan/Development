@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Oracle DB",
+  "main": "oracledb.js",
+  "scripts": {
+    "test": "mocha **/**.spec.js --timeout=5000",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- --timeout 5000 ./test/**.spec.js",
+    "start": "node oracledb.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.10",
+    "oracledb": "^3.1.1"
+  }
+}
